@@ -6,6 +6,10 @@
 
 ## [Unreleased]
 
+### Documentation
+
+- Update README.md
+
 ### Features
 
 - Add checkdisk command snippet
