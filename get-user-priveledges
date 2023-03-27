@@ -1,0 +1,5 @@
+---
+tags: [ndows", "system", "admin", "user"]
+language:cmd
+---
+whoami /priv
