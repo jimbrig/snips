@@ -43,3 +43,5 @@ All snips are stored in `~/.snips` directory.
 - [checkdisk](checkdisk): Runs the Windows `chkdsk` command with optimal arguments.
 
 - [get-user-privileges](get-user-privileges): Runs `whoami /priv` (Windows only)
+
+- [new-restore-point](new-restore-point): Creates a new restore point for Windows.
