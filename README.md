@@ -42,4 +42,4 @@ All snips are stored in `~/.snips` directory.
 
 - [checkdisk](checkdisk): Runs the Windows `chkdsk` command with optimal arguments.
 
-
+- [get-user-priveledges](get-user-priveledges): Runs `whoami /priv` (Windows only)
