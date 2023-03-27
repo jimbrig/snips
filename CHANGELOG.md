@@ -21,6 +21,7 @@
 
 ### Features
 
+- Add new-restore-point pwsh snippet
 - Add get-user-priveledges command snippet
 - Add checkdisk command snippet
 - Add git-cliff and gha automations
