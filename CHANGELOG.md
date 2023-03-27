@@ -6,13 +6,22 @@
 
 ## [Unreleased]
 
+### Bug Fixes
+
+- Fix get-user-privileges yaml frontmatter
+- Rename get-user-priveledges to get-user-privileges
+- Fix spelling of privileges in README
+
 ### Documentation
 
+- Add link to user privileges snippet to README
+- Add intro callout to README
 - Add installation, usage, and initial snippets to README
 - Update README.md
 
 ### Features
 
+- Add get-user-priveledges command snippet
 - Add checkdisk command snippet
 - Add git-cliff and gha automations
 
