@@ -8,6 +8,7 @@
 
 ### Documentation
 
+- Add installation, usage, and initial snippets to README
 - Update README.md
 
 ### Features
