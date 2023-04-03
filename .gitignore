@@ -1,0 +1,17 @@
+*
+!.gitignore
+!.gitattributes
+!README.md
+!CHANGELOG.md
+!/.github
+!/.github/workflows
+!/.github/**
+!cliff.toml
+!/windows
+!/windows/**
+!/linux
+!/linux/**
+!/common
+!/common/**
+!/snips
+!snips/**
