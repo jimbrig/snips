@@ -22,6 +22,7 @@
 
 ### Features
 
+- Restructure snippets
 - Added linux list-shells snippet
 - Add new-restore-point pwsh snippet
 - Add get-user-priveledges command snippet
