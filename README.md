@@ -13,8 +13,8 @@
 <details>
 <summary>Table of Contents</summary>
 
-<!-- AUTO-GENERATED-CONTENT:START (TOC) -->
-<!-- AUTO-GENERATED-CONTENT:END -->
+<!-- START doctoc -->
+<!-- END doctoc -->
 
 </details>
 
