@@ -1,0 +1,19 @@
+name: Actions Report
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  report:
+    name: Run Actions Report
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo 'Content here. You *can* use Markdown.' | tee /tmp/report.md
+      - uses: ./
+        with:
+          name: Report
+          title: GitHub Actions Report
+          body-file: /tmp/report.md
