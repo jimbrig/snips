@@ -1,0 +1,6 @@
+---
+tags: ["python", "config", "tool", "poetry", "pip"]
+language: bash
+---
+curl -sSL https://install.python-poetry.org | python3 -
+
