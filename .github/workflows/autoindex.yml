@@ -1,33 +1,25 @@
 name: Index Generation
-
 on:
-  workflow_dispatch: 
-  pull_request:
-    branches: [main]
-    types: [closed]
   push:
-    branches: [main]
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.7"
-      - name: Generate Index
+      - uses: DaanV2/Markdown-Action-Create-Indexes@v1.7.0
+        with: 
+          folder: ${{github.workspace}}
+      - name: Commit changes
+        continue-on-error: true
         run: |
-          python .github/indexer.py
-      - name: Create Pull Request
-        id: cpr
-        uses: peter-evans/create-pull-request@v4
-        with:
-          commit-message: Generate Index
-          author: GitHub Action <action@github.com>
-          committer: GitHub Action <action@github.com>
-          signoff: true
-          branch: index-generator
-          title: "[AUTO] Update Index"
-          body: |
-            Update Index
+          cd ${{github.workspace}}
+          git config --global user.email "Bot@Example.com"
+          git config --global user.name "DaanV2 Bot"
+          git add .
+          git commit -m "auto: Generated markdown indexes"
+          git push
