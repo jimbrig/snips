@@ -4,6 +4,7 @@
 
 <!-- Badges:Begin -->
 [![Automate Changelog](https://github.com/jimbrig/snips/actions/workflows/changelog.yml/badge.svg)](https://github.com/jimbrig/snips/actions/workflows/changelog.yml)
+[![TOC Generator](https://github.com/jimbrig/snips/actions/workflows/toc.yml/badge.svg)](https://github.com/jimbrig/snips/actions/workflows/toc.yml)
 <!-- Badges:End -->
 
 > **Note** This repository houses code-snippets for various tasks using the [snips-cli](https://github.com/srijanshetty/snips) command-line tool.
