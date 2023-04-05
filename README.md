@@ -40,8 +40,16 @@ snips copy <snip-name?>         # Copies content of the snip to the clipboard, f
 
 All snips are stored in `~/.snips` directory. 
 
-- [checkdisk](checkdisk): Runs the Windows `chkdsk` command with optimal arguments.
+### Linux
 
-- [get-user-privileges](get-user-privileges): Runs `whoami /priv` (Windows only)
+- [`install-poetry`](linux/install-poetry): Installs [poetry](https://python-poetry.org/) - a Python dependency management and packaging tool.
 
-- [new-restore-point](new-restore-point): Creates a new restore point for Windows.
+- [`list-shells`](linux/list-shells): uses `/etc/passwd` to get a list of available shells
+
+### Windows
+
+- [`checkdisk`](windows/checkdisk): Runs the Windows `chkdsk` command with optimal arguments.
+
+- [`get-user-privileges`](windows/get-user-privileges): Runs `whoami /priv` (Windows only)
+
+- [`new-restore-point`](windows/new-restore-point): Creates a new restore point for Windows.
