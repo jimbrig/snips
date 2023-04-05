@@ -14,6 +14,7 @@
 
 ### Documentation
 
+- Update README.md
 - Add new-restore-point to README
 - Add link to user privileges snippet to README
 - Add intro callout to README
