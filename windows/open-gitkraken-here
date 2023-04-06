@@ -1,0 +1,6 @@
+---
+tags: ["powershell","gitkraken","git","tool","utility","alias"]
+language:powershell
+---
+$args = "-p " + $PWD + '"'
+& "C:\Users\jimmy\AppData\Local\gitkraken\update.exe" --processStart=gitkraken.exe --process-start-args=$args
