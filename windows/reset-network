@@ -1,0 +1,9 @@
+---
+tags: ["windows", "network", "reset", "system", "admin"]
+language:cmd
+---
+netsh int ip reset
+netsh winsock reset
+ipconfig /flushdns
+taskkill /F /IM explorer.exe & start explorer
+
