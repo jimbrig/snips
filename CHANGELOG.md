@@ -23,6 +23,8 @@
 
 ### Features
 
+- Add reset-network windows snippet
+- Add open-gitkraken-here windows snippet
 - Restructure snippets
 - Added linux list-shells snippet
 - Add new-restore-point pwsh snippet
