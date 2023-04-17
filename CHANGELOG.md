@@ -23,6 +23,7 @@
 
 ### Features
 
+- Add download cinder snip
 - Add reset-network windows snippet
 - Add open-gitkraken-here windows snippet
 - Restructure snippets
