@@ -20,6 +20,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Snippets](#snippets)
+  - [Common](#common)
   - [Linux](#linux)
   - [Windows](#windows)
 
@@ -49,13 +50,23 @@ snips copy <snip-name?>         # Copies content of the snip to the clipboard, f
 
 All snips are stored in `~/.snips` directory. 
 
+### Common
+
+> Commands common to both [Windows](./windows) and [Linux](./linux) are stored in the [common](./common) folder.
+
+- [`download-cinder`](common/download-cinder): Installs the [mkdocs](https://www.mkdocs.org/) theme [cinder](https://sourcefoundry.org/cinder) using [gh-cli](https://cli.github.com/)'s `release download` command.
+
 ### Linux
+
+> Commands for [Linux](./linux) only.
 
 - [`install-poetry`](linux/install-poetry): Installs [poetry](https://python-poetry.org/) - a Python dependency management and packaging tool.
 
 - [`list-shells`](linux/list-shells): uses `/etc/passwd` to get a list of available shells
 
 ### Windows
+
+> Commands for [Windows](./windows) only.
 
 - [`checkdisk`](windows/checkdisk): Runs the Windows `chkdsk` command with optimal arguments.
 
