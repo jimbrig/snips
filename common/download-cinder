@@ -1,0 +1,6 @@
+---
+tags: ["docs", "download", "gh-cli"]
+language: [ "bash", "powershell" ]
+---
+gh release download -R chrissimpkins/cinder -D "C:\Users\jimmy\Downloads\" -A zip
+
